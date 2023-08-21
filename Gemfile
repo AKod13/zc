@@ -38,7 +38,7 @@ gem "bootsnap", require: false
 
 gem 'rubocop', require: false
 
-gem 'rubocop-rails', '~> 2.20', '>= 2.20.2'
+gem 'rubocop-rails', require: false
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
