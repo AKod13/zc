@@ -1,0 +1,13 @@
+inherit_from: .rubocop_todo.yml
+inherit_mode:
+  merge:
+    - RuboCop::Rails::ConfigurableEnforcedStyle
+    - RuboCop::ConfigLoader::DefaultFormatter
+  overwrite:
+    - RuboCop::RSpec::ConfigurableEnforcedStyle
+    - RuboCop::RSpec::ResolvableCops
+    - RuboCop::RSpec::Rails::Dialect
+    - RuboCop::RSpec::Rails::ConfigurableEnforcedStyle
+  exclude:
+    - RuboCop::Rails::ConfigurableEnforcedStyle
+    - RuboCop::RSpec::ConfigurableEnforcedStyle
