@@ -11,3 +11,5 @@ inherit_mode:
   exclude:
     - RuboCop::Rails::ConfigurableEnforcedStyle
     - RuboCop::RSpec::ConfigurableEnforcedStyle
+require:
+  - rubocop-rails
