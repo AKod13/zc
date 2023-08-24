@@ -17,3 +17,8 @@ require:
 Layout/EmptyLineAfterGuardClause:
   Exclude:
     - 'bin/bundle'
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - test/channels/application_cable/connection_test.rb
+
