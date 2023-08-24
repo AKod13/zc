@@ -13,3 +13,7 @@ inherit_mode:
     - RuboCop::RSpec::ConfigurableEnforcedStyle
 require:
   - rubocop-rails
+
+Layout/EmptyLineAfterGuardClause:
+  Exclude:
+    - 'bin/bundle'
