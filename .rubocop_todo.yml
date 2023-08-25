@@ -50,11 +50,7 @@ Style/GlobalStdStream:
 
 
 
-# Offense count: 1
-# This cop supports safe autocorrection (--autocorrect).
-Style/PerlBackrefs:
-  Exclude:
-    - 'bin/bundle'
+
 
 # Offense count: 2
 # This cop supports unsafe autocorrection (--autocorrect-all).
