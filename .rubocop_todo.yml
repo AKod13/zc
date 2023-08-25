@@ -12,11 +12,6 @@
 
 
 
-# Offense count: 4
-# This cop supports safe autocorrection (--autocorrect).
-Layout/SpaceInsidePercentLiteralDelimiters:
-  Exclude:
-    - 'Gemfile'
 
 # Offense count: 1
 # Configuration parameters: AllowedMethods, AllowedPatterns.
