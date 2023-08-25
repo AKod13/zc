@@ -68,13 +68,7 @@ Style/SpecialGlobalVars:
 
 
 
-# Offense count: 1
-# This cop supports safe autocorrection (--autocorrect).
-# Configuration parameters: .
-# SupportedStyles: percent, brackets
-Style/SymbolArray:
-  EnforcedStyle: percent
-  MinSize: 10
+
 
 # Offense count: 2
 # This cop supports safe autocorrection (--autocorrect).
